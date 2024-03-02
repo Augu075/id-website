@@ -1,3 +1,6 @@
+
+
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -14,9 +17,13 @@ header {
 main {
    display: flex;
     flex-direction: column;
-    align-items: flex-start; /* Updated alignment to the left */
+    align-items: flex-start; /* Align content to the left */
     margin: 20px;
+    background: url('8711551.jpg') center center/cover fixed; /* Add the background image */
+    padding: 20px; 
+    position: relative;  
 }
+
 #image-container, #image-containera {
     text-align: left;
     margin-bottom: 20px;
@@ -24,15 +31,30 @@ main {
 
 #description {
     text-align: left;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     padding: 20px;
-    background-color: #f0f0f0; /* Optional: Add a background color to the description box */
+    background-color: rgba(455, 455, 455, 0.8); /* Optional: Add a background color to the description box */
 }
 
 #description p {
     margin: 0;
 }
 
+
+#description2 {
+    text-align: left;
+    font-size: 15px;
+    margin-bottom: 50px;
+    margin-left: 1500px;
+    padding: 20px;
+    position: right-middle;
+    background-color: #36046d; /* Optional: Add a background color to the description box */
+}
+
+#description2 p {
+    margin: 0;
+    color:#65fe08;
+}
 
 img {
     width: 300px;
